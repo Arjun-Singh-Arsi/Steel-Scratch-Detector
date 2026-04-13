@@ -59,7 +59,7 @@ st.markdown("</div>", unsafe_allow_html=True)
 
 # --- Device & Model Setup ---
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-MODEL_PATH = os.path.join('model', 'steel_defect_resunet_final (1).pth')
+MODEL_PATH = 'steel_defect_resunet_final (1).pth'
 
 @st.cache_resource
 def get_model():
