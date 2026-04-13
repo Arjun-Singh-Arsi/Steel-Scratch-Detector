@@ -12,3 +12,4 @@ pillow
 kagglehub
 scikit-learn
 gunicorn
+streamlit
